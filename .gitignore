@@ -42,4 +42,4 @@ coverage/
 
 # Distribution Directory
 dist/*
-!dist/index.html
+# !dist/index.html
