@@ -43,3 +43,20 @@ To run unit tests:
 ```sh
 npm run test
 ```
+
+## References
+
+Webpack
+https://webpack.js.org/
+
+Mocha
+https://mochajs.org/
+
+Chai Assertion Library
+https://www.chaijs.com/
+
+Babel
+https://babeljs.io/
+
+ESLint
+https://eslint.org/
