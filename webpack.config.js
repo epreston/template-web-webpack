@@ -4,6 +4,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
+  target: ['web', 'es9'],
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
