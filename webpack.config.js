@@ -23,6 +23,9 @@ const config = {
       },
     ],
   },
+  devServer: {
+    contentBase: './dist',
+  },
   plugins: [
     // new CopyPlugin({
     //   patterns: [{ from: 'src/index.html' }],
