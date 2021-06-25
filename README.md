@@ -33,7 +33,7 @@ node dist/bundle.js
 To run static code analysis:
 
 ```sh
-npm lint
+npm run lint
 ```
 
 ## Testing
@@ -41,5 +41,5 @@ npm lint
 To run unit tests:
 
 ```sh
-npm test
+npm run test
 ```
