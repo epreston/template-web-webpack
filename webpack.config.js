@@ -24,9 +24,9 @@ const config = {
     ],
   },
   plugins: [
-    new CopyPlugin({
-      patterns: [{ from: 'src/index.html' }],
-    }),
+    // new CopyPlugin({
+    //   patterns: [{ from: 'src/index.html' }],
+    // }),
     new HtmlWebpackPlugin({
       appMountId: 'app',
       filename: 'index.html',
