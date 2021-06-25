@@ -1,0 +1,45 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+
+# Windows and OSX Specific System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+ehthumbs.db
+Thumbs.db
+Icon\?
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache/
+
+# System config
+/.env
+/.env.test
+
+# Dependency directories
+node_modules/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# vscode
+vscode.lsif
+vscode.db
+
+# Optional eslint cache
+.eslintcache
+
+# Test coverage reports
+coverage/
+
+# Distribution Directory
+dist/*
+!dist/index.html
