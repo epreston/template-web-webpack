@@ -1,4 +1,4 @@
-# empty-project
+# Webpack Web Project
 
 Repo Template: webpack, mocha-chai, babel, css, eslint.
 
