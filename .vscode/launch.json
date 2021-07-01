@@ -5,20 +5,21 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch (Web, Chrome)",
+      "name": "Debug with Chrome",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://localhost:8080",
+      "webRoot": "${workspaceFolder}/src"
+    },
+    {
+      "name": "Preview (Simple Web, Chrome)",
       "type": "pwa-chrome",
       "request": "launch",
       // "outFiles": [],
       // "perScriptSourcemaps": "yes",
       "url": "http://localhost:8000",
-      "webRoot": "${workspaceFolder}",
+      "webRoot": "${workspaceFolder}/dist",
       "preLaunchTask": "python3: http.server 8000 start"
-    },
-    {
-      "name": "Launch (File, Chrome)",
-      "type": "pwa-chrome",
-      "request": "launch",
-      "file": "${workspaceFolder}/index.html"
     }
   ]
 }
