@@ -12,7 +12,7 @@
       "webRoot": "${workspaceFolder}/src"
     },
     {
-      "name": "Preview (Simple Web, Chrome)",
+      "name": "Preview (Python Web, Chrome)",
       "type": "chrome",
       "request": "launch",
       // "outFiles": [],
