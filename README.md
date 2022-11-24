@@ -10,22 +10,30 @@ First install dependencies:
 npm install
 ```
 
-To create a production build:
+To create a development build into "dist":
 
 ```sh
-npm run build-prod
+npm run dev
 ```
 
-To create a development build:
-
-```sh
-npm run build-dev
-```
-
-## Running
+To start a development server with hot module reloading:
 
 ```sh
 npm run start
+```
+
+## Create Production Build
+
+To create a production build into "dist":
+
+```sh
+npm run build
+```
+
+To start a local server to preview:
+
+```sh
+npm run preview
 ```
 
 ## Linting
@@ -46,20 +54,13 @@ npm run test
 
 ## References
 
-Webpack
-https://webpack.js.org/
-
-Mocha
-https://mochajs.org/
-
-Chai Assertion Library
-https://www.chaijs.com/
-
-Babel
-https://babeljs.io/
-
-ESLint
-https://eslint.org/
+| Item                   | Reference               |
+| ---------------------- | ----------------------- |
+| Webpack                | https://webpack.js.org/ |
+| Mocha                  | https://mochajs.org/    |
+| Chai Assertion Library | https://www.chaijs.com/ |
+| Babel                  | https://babeljs.io/     |
+| ESLint                 | https://eslint.org/     |
 
 ## License
 
