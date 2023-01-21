@@ -8,6 +8,7 @@
       "name": "Debug with Chrome",
       "type": "chrome",
       "request": "launch",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}/src"
     },
@@ -15,6 +16,7 @@
       "name": "Preview (Python Web, Chrome)",
       "type": "chrome",
       "request": "launch",
+      "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
       // "outFiles": [],
       // "perScriptSourcemaps": "yes",
       "url": "http://localhost:8000",
