@@ -1,11 +1,18 @@
 {
   "name": "empty-project",
-  "version": "0.2.0",
+  "version": "0.3.1",
   "description": "Repo Template: webpack, mocha-chai, babel, css, eslint",
   "private": true,
+  "type": "module",
   "keywords": [],
   "author": "Ed Preston",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16.11.0"
+  },
   "scripts": {
     "clean": "rm dist/*",
     "dev": "npm run build-dev",

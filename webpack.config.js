@@ -1,10 +1,16 @@
-// const webpack = require('webpack');
-const path = require('path');
-// const CopyPlugin = require('copy-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+// webpack.config.js
+
+// import CopyPlugin from 'copy-webpack-plugin';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const config = {
-  target: ['web', 'es9'],
+  target: ['web', 'es2020'],
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -27,7 +33,7 @@ const config = {
   devServer: {
     static: {
       directory: './dist',
-    }
+    },
   },
   plugins: [
     // new CopyPlugin({
@@ -52,4 +58,4 @@ const config = {
   },
 };
 
-module.exports = config;
+export default config;

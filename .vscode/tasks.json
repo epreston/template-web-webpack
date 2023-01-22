@@ -8,6 +8,9 @@
       "type": "shell",
       "command": "python3",
       "args": ["-m", "http.server", "8000"],
+      "options": {
+        "cwd": "${workspaceFolder}/dist/"
+      },
       "isBackground": true,
       "problemMatcher": {
         "pattern": {

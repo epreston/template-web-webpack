@@ -4,7 +4,9 @@
       "@babel/preset-env",
       {
         "bugfixes": true,
-        "targets": "Edge >= 83, Firefox >= 78, FirefoxAndroid  >= 78, Chrome >= 80, ChromeAndroid >= 80, Opera >= 67, OperaMobile >= 67, Safari >= 13.1, iOS >= 13.4",
+        "targets": {
+          "esmodules": true
+        },
         "useBuiltIns": "usage",
         "corejs": 3
       }

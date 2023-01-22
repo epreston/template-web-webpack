@@ -9,6 +9,8 @@
       "type": "chrome",
       "request": "launch",
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+      // "runtimeArgs": ["--enable-precise-memory-info"],
+      // "perScriptSourcemaps": "yes",
       "url": "http://localhost:8080",
       "webRoot": "${workspaceFolder}/src"
     },
@@ -17,7 +19,7 @@
       "type": "chrome",
       "request": "launch",
       "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
-      // "outFiles": [],
+      // "runtimeArgs": ["--enable-precise-memory-info"],
       // "perScriptSourcemaps": "yes",
       "url": "http://localhost:8000",
       "webRoot": "${workspaceFolder}/dist",

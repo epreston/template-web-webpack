@@ -11,32 +11,33 @@ ehthumbs.db
 Thumbs.db
 Icon\?
 
-# parcel-bundler cache (https://parceljs.org/)
-.cache/
-.parcel-cache/
-
-# System config
-/.env
-/.env.test
-
-# Dependency directories
-node_modules/
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
 
 # Logs
+logs
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
 
 # Optional npm cache directory
 .npm
-
-# vscode
-vscode.lsif
-vscode.db
-
-# Optional eslint cache
-.eslintcache
 
 # Test coverage reports
 coverage/
@@ -44,3 +45,22 @@ coverage/
 # Distribution Directory
 dist/*
 # !dist/index.html
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Yarn Integrity file
+.yarn-integrity
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
