@@ -1,6 +1,6 @@
 {
   "name": "empty-project",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Repo Template: webpack, mocha-chai, babel, css, eslint",
   "private": true,
   "type": "module",
