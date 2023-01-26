@@ -1,13 +1,13 @@
 {
+  "targets": {
+    "browsers": "Edge >= 108, Firefox >= 108, FirefoxAndroid  >= 107, Chrome >= 108, ChromeAndroid >= 108, Safari >= 16.1, iOS >= 16.1, not dead",
+    "esmodules": true
+  },
   "presets": [
     [
       "@babel/preset-env",
       {
         "bugfixes": true,
-        "targets": {
-          "browsers": "Edge >= 108, Firefox >= 108, FirefoxAndroid  >= 107, Chrome >= 108, ChromeAndroid >= 108, Safari >= 16.1, iOS >= 16.1, not dead",
-          "esmodules": true
-        },
         "useBuiltIns": "usage",
         "corejs": "3.27.2"
       }
