@@ -4,7 +4,6 @@
   "description": "Repo Template: webpack, mocha-chai, babel, css, eslint",
   "private": true,
   "type": "module",
-  "main": "",
   "keywords": [],
   "author": "",
   "license": "MIT",
