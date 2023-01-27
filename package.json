@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "keywords": [],
-  "author": "Ed Preston",
+  "author": "",
   "license": "MIT",
   "files": [
     "dist"
@@ -41,5 +41,6 @@
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
-  }
+  },
+  "packageManager": "npm@8.19.3"
 }
