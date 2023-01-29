@@ -1,6 +1,6 @@
 {
   "name": "empty-project",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Repo Template: webpack, mocha-chai, babel, css, eslint",
   "private": true,
   "type": "module",
@@ -33,7 +33,7 @@
     "copy-webpack-plugin": "^11.0.0",
     "core-js": "^3.27.2",
     "css-loader": "^6.7.3",
-    "eslint": "^8.32.0",
+    "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "html-webpack-plugin": "^5.5.0",
     "mocha": "^10.2.0",
