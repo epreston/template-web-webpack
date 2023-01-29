@@ -63,6 +63,9 @@ const config = {
     },
   },
   devtool: false,
+  stats: {
+    modules: false,
+  },
 };
 
 export default config;
