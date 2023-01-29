@@ -45,6 +45,12 @@ const config = {
     }),
   ],
   optimization: {
+    // When running Webpack in development mode, still identify which
+    // code is unused and would be removed in production.
+    usedExports: true,
+    sideEffects: true,
+    innerGraph: true,
+
     runtimeChunk: 'single',
     splitChunks: {
       cacheGroups: {
@@ -56,6 +62,7 @@ const config = {
       },
     },
   },
+  devtool: false,
 };
 
 export default config;
