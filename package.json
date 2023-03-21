@@ -1,6 +1,6 @@
 {
   "name": "empty-project",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Repo Template: webpack, mocha-chai, babel, css, eslint",
   "private": true,
   "type": "module",
@@ -11,7 +11,7 @@
     "dist"
   ],
   "engines": {
-    "node": ">=16.19.0"
+    "node": ">=18.15.0"
   },
   "scripts": {
     "clean": "rm dist/*",
@@ -26,21 +26,21 @@
     "watch": "webpack --watch --mode development"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.0",
+    "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
     "babel-loader": "^9.1.2",
     "chai": "^4.3.7",
     "copy-webpack-plugin": "^11.0.0",
-    "core-js": "^3.29.0",
+    "core-js": "^3.29.1",
     "css-loader": "^6.7.3",
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.36.0",
+    "eslint-config-prettier": "^8.8.0",
     "html-webpack-plugin": "^5.5.0",
     "mocha": "^10.2.0",
-    "style-loader": "^3.3.1",
-    "webpack": "^5.76.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "webpack-dev-server": "^4.13.1"
   },
-  "packageManager": "npm@8.19.3"
+  "packageManager": "npm@9.6.2"
 }
