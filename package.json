@@ -1,8 +1,8 @@
 {
+  "private": true,
   "name": "empty-project",
   "version": "0.3.4",
   "description": "Repo Template: webpack, mocha-chai, babel, css, eslint",
-  "private": true,
   "type": "module",
   "keywords": [],
   "author": "",
@@ -14,7 +14,7 @@
     "node": ">=18.15.0"
   },
   "scripts": {
-    "clean": "rm dist/*",
+    "clean": "rimraf dist/*",
     "dev": "npm run build-dev",
     "build": "npm run build-prod",
     "build-dev": "webpack --mode development",
