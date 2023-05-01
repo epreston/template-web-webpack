@@ -2,60 +2,43 @@
 
 Repo Template: webpack, mocha-chai, babel, css, eslint.
 
-## Building and running on localhost
 
-First install dependencies:
+## Setup
 
-```sh
+Download [Node.js](https://nodejs.org/en/download/).
+
+Run the following commands:
+
+```bash
+# install dependencies
 npm install
-```
 
-To create a development build into "dist":
-
-```sh
+# create a development build
 npm run dev
-```
 
-To start a development server with hot module reloading:
-
-```sh
+# start a dev server and open in web browser
 npm run start
 ```
 
-## Create Production Build
 
-To create a production build into "dist":
+## Commands
 
-```sh
-npm run build
-```
-
-To start a local server to preview:
-
-```sh
-npm run preview
-```
-
-## Linting
-
-To run static code analysis:
-
-```sh
-npm run lint
-```
-
-## Testing
-
-To run unit tests:
-
-```sh
-npm run test
-```
+| Action  | Command           | Description                                      |
+| ------- | ----------------- | ------------------------------------------------ |
+| clean   | `npm run clean`   | Empty the production build in the "dist" folder. |
+| dev     | `npm run dev`     | Create a development build into "dist"           |
+| build   | `npm run build`   | Create a production build into "dist"            |
+| preview | `npm run preview` | Start a local server to preview production build |
+| start   | `npm run start`   | Start a dev server and open in web browser       |
+| lint    | `npm run lint`    | Run static code analysis                         |
+| test    | `npm run test`    | Run unit tests                                   |
+| watch   | `npm run watch`   | Watch for changes and rebuild                    |
 
 ## References
 
 | Item                   | Reference               |
 | ---------------------- | ----------------------- |
+| Node.js                | https://nodejs.org/     |
 | Webpack                | https://webpack.js.org/ |
 | Mocha                  | https://mochajs.org/    |
 | Chai Assertion Library | https://www.chaijs.com/ |
@@ -64,4 +47,4 @@ npm run test
 
 ## License
 
-See [License](LICENSE).
+MIT [License](LICENSE).
