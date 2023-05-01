@@ -1,6 +1,6 @@
 {
   "targets": {
-    "browsers": "Edge >= 108, Firefox >= 108, FirefoxAndroid  >= 107, Chrome >= 108, ChromeAndroid >= 108, Safari >= 16.1, iOS >= 16.1, not dead",
+    "browsers": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 110,  Safari >= 16.4, iOS >= 16.4, not dead",
     "esmodules": true
   },
   "presets": [
