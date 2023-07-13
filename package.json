@@ -13,6 +13,7 @@
   "engines": {
     "node": ">=18.15.0"
   },
+  "packageManager": "npm@9.6.2",
   "scripts": {
     "clean": "rimraf dist/*",
     "dev": "npm run build-dev",
@@ -41,6 +42,5 @@
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  },
-  "packageManager": "npm@9.6.2"
+  }
 }
