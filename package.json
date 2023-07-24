@@ -21,7 +21,7 @@
     "build": "npm run build-prod",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
-    "lint": "eslint src/**/*.js test/**/*.js",
+    "lint": "eslint . --ext .js --ignore-path .gitignore",
     "start": "webpack serve --open --mode development",
     "preview": "webpack serve --open --mode production",
     "test": "mocha",
