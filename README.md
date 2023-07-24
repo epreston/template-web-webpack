@@ -2,7 +2,6 @@
 
 Repo Template: webpack, mocha-chai, babel, css, eslint.
 
-
 ## Setup
 
 Download [Node.js](https://nodejs.org/en/download/).
@@ -20,7 +19,6 @@ npm run dev
 npm run start
 ```
 
-
 ## Commands
 
 | Action  | Command           | Description                                      |
@@ -36,14 +34,21 @@ npm run start
 
 ## References
 
-| Item                   | Reference               |
-| ---------------------- | ----------------------- |
-| Node.js                | https://nodejs.org/     |
-| Webpack                | https://webpack.js.org/ |
-| Mocha                  | https://mochajs.org/    |
-| Chai Assertion Library | https://www.chaijs.com/ |
-| Babel                  | https://babeljs.io/     |
-| ESLint                 | https://eslint.org/     |
+| Tool         | Reference                |
+| ------------ | ------------------------ |
+| Node.js      | https://nodejs.org/      |
+| Webpack      | https://webpack.js.org/  |
+| Mocha        | https://mochajs.org/     |
+| Chai         | https://www.chaijs.com/  |
+| Babel        | https://babeljs.io/      |
+| ESLint       | https://eslint.org/      |
+| Prettier     | https://prettier.io      |
+| EditorConfig | https://editorconfig.org |
+
+| Website      | Reference             |
+| ------------ | --------------------- |
+| Can I Use    | https://caniuse.com   |
+| Browserslist | https://browsersl.ist |
 
 ## License
 
