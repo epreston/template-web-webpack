@@ -4,8 +4,7 @@
     "es2022": true,
     "browser": true,
     "node": true,
-    "commonjs": true,
-    "mocha": true
+    "commonjs": true
   },
   "parserOptions": {
     "ecmaVersion": 2022,
