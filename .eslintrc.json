@@ -3,8 +3,7 @@
   "env": {
     "es2022": true,
     "browser": true,
-    "node": true,
-    "commonjs": true
+    "node": true
   },
   "parserOptions": {
     "ecmaVersion": 2022,
