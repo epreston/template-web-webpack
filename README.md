@@ -23,7 +23,7 @@ npm run start
 
 | Action  | Command           | Description                                      |
 | ------- | ----------------- | ------------------------------------------------ |
-| clean   | `npm run clean`   | Empty the production build in the "dist" folder. |
+| clean   | `npm run clean`   | Empty the contents of the "dist" folder.         |
 | dev     | `npm run dev`     | Create a development build into "dist"           |
 | build   | `npm run build`   | Create a production build into "dist"            |
 | preview | `npm run preview` | Start a local server to preview production build |
