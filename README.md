@@ -32,7 +32,7 @@ npm run start
 | test    | `npm run test`    | Run unit tests                                   |
 | watch   | `npm run watch`   | Watch for changes and rebuild                    |
 
-## References
+## Tools
 
 | Tool         | Reference                |
 | ------------ | ------------------------ |
@@ -44,6 +44,8 @@ npm run start
 | ESLint       | https://eslint.org/      |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |
+
+## References
 
 | Website      | Reference             |
 | ------------ | --------------------- |
