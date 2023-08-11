@@ -10,8 +10,10 @@ on:
   workflow_dispatch:
   push:
     branches: [ "main" ]
+    paths-ignore: ['README.md', 'LICENSE']
   pull_request:
     branches: [ "main" ]
+    paths-ignore: ['README.md', 'LICENSE']
 
 concurrency:
   group: ci-${{ github.event.pull_request.number || github.ref }}
@@ -38,7 +40,7 @@ jobs:
         cache: 'npm'
 
     - name: Install
-      run: npm install
+      run: npm clean-install --progress=false --no-fund
 
     - name: Lint
       run: npm run lint --if-present
