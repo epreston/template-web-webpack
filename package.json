@@ -28,14 +28,14 @@
     "watch": "webpack --watch --mode development"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
+    "@babel/core": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
     "babel-loader": "^9.1.3",
     "chai": "^4.3.7",
     "copy-webpack-plugin": "^11.0.0",
     "core-js": "^3.32.0",
     "css-loader": "^6.8.1",
-    "eslint": "^8.46.0",
+    "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "html-webpack-plugin": "^5.5.3",
     "mocha": "^10.2.0",
