@@ -15,25 +15,25 @@ const config = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
-    clean: true,
+    clean: true
   },
   module: {
     rules: [
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
-        use: 'babel-loader',
+        use: 'babel-loader'
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
-      },
-    ],
+        use: ['style-loader', 'css-loader']
+      }
+    ]
   },
   devServer: {
     static: {
-      directory: './dist',
-    },
+      directory: './dist'
+    }
   },
   plugins: [
     // new CopyPlugin({
@@ -41,8 +41,8 @@ const config = {
     // }),
     new HtmlWebpackPlugin({
       appMountId: 'app',
-      filename: 'index.html',
-    }),
+      filename: 'index.html'
+    })
   ],
   optimization: {
     // When running Webpack in development mode, still identify which
@@ -57,15 +57,15 @@ const config = {
         vendor: {
           test: /[\\/]node_modules[\\/]/,
           name: 'vendors',
-          chunks: 'all',
-        },
-      },
-    },
+          chunks: 'all'
+        }
+      }
+    }
   },
   devtool: false,
   stats: {
-    modules: false,
-  },
+    modules: false
+  }
 };
 
 export default config;
