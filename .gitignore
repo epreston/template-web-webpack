@@ -43,8 +43,8 @@ node_modules
 coverage
 
 # Distribution Directory
-dist/*
-# !dist/index.html
+dist
+dist-ssr
 
 # Optional eslint cache
 .eslintcache
