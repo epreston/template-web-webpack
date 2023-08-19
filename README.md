@@ -2,6 +2,8 @@
 
 Repo Template: webpack, mocha-chai, babel, css, eslint.
 
+[![CI][ci-badge]][ci-url]
+
 ## Setup
 
 Download [Node.js](https://nodejs.org/en/download/).
@@ -57,3 +59,6 @@ npm run start
 ## License
 
 This template is released under the MIT [License](LICENSE).
+
+[ci-badge]: https://github.com/epreston/template-web-webpack/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/template-web-webpack/actions
