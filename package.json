@@ -21,7 +21,7 @@
     "build": "npm run build-prod",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
-    "lint": "eslint --ext .js --report-unused-disable-directives --env-info .",
+    "lint": "eslint --ext .js --report-unused-disable-directives .",
     "start": "webpack serve --open --mode development",
     "preview": "webpack serve --open --mode production",
     "test": "mocha",
