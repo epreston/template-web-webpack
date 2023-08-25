@@ -20,7 +20,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  ci-on-node:
+  continuous-integration:
 
     runs-on: ubuntu-latest
 
