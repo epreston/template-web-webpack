@@ -11,9 +11,8 @@
     "dist"
   ],
   "engines": {
-    "node": ">=18.16.1 || >=20.0.0"
+    "node": ">=18.17.1 || >=20.0.0"
   },
-  "packageManager": "npm@9.6.2",
   "browserslist": "Chrome >= 112, ChromeAndroid >= 112, Edge >= 112, Firefox >= 112, FirefoxAndroid  >= 112,  Safari >= 16.4, iOS >= 16.4, not dead",
   "scripts": {
     "clean": "rimraf dist/*",
@@ -28,14 +27,14 @@
     "watch": "webpack --watch --mode development"
   },
   "devDependencies": {
-    "@babel/core": "^7.22.10",
-    "@babel/preset-env": "^7.22.10",
+    "@babel/core": "^7.22.19",
+    "@babel/preset-env": "^7.22.15",
     "babel-loader": "^9.1.3",
-    "chai": "^4.3.7",
+    "chai": "^4.3.8",
     "copy-webpack-plugin": "^11.0.0",
-    "core-js": "^3.32.1",
+    "core-js": "^3.32.2",
     "css-loader": "^6.8.1",
-    "eslint": "^8.47.0",
+    "eslint": "^8.49.0",
     "eslint-config-prettier": "^9.0.0",
     "html-webpack-plugin": "^5.5.3",
     "mocha": "^10.2.0",
