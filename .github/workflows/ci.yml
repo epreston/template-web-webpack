@@ -19,6 +19,9 @@ concurrency:
   group: ci-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+
 jobs:
   continuous-integration:
 
@@ -28,7 +31,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [18.x, 20.x]
 
     steps:
     - uses: actions/checkout@v4
