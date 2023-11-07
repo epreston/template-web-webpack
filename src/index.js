@@ -1,7 +1,5 @@
 import './styles.css';
 
-console.log('hello world!');
-
 function component() {
   const element = document.createElement('div');
 
