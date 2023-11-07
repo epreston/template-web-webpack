@@ -1,14 +1,12 @@
-# Webpack Web Project
+# Webpack Template Web Project
 
 Repo Template: webpack, mocha-chai, babel, css, eslint.
 
 [![CI][ci-badge]][ci-url]
 
-## Setup
+## Quick Start
 
-Download [Node.js](https://nodejs.org/en/download/).
-
-Run the following commands:
+Install [Node.js](https://nodejs.org/en/download/), start a new repository using this [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), create a local [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of your new repository, and run the following console commands within your local copy:
 
 ```bash
 # install dependencies
@@ -21,7 +19,7 @@ npm run dev
 npm run start
 ```
 
-## Commands
+## NPM
 
 | Action  | Command           | Description                                      |
 | ------- | ----------------- | ------------------------------------------------ |
