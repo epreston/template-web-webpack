@@ -17,5 +17,10 @@
   },
   "[markdown]": {
     "files.trimTrailingWhitespace": false
-  }
+  },
+  "cSpell.ignoreWords": [
+    "corejs",
+    "epreston",
+    "esmodules"
+  ]
 }
