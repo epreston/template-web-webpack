@@ -1,21 +1,16 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=733558
-  // for the documentation about the tasks.json format
-  "version": "2.0.0",
-  "tasks": [
+	"version": "2.0.0",
+	"tasks": [
     {
       "type": "npm",
-      "script": "watch",
+      "script": "test",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
       "problemMatcher": [],
-      "label": "npm: watch",
-      "detail": "webpack --watch --mode development"
-    },
-    {
-      "type": "npm",
-      "script": "start",
-      "problemMatcher": [],
-      "label": "npm: start",
-      "detail": "webpack serve --open --mode development"
+      "label": "npm: test",
+      "detail": "mocha"
     },
     {
       "type": "npm",
@@ -27,39 +22,6 @@
       "problemMatcher": [],
       "label": "npm: build-dev",
       "detail": "webpack --mode development"
-    },
-    {
-      "type": "npm",
-      "script": "build-prod",
-      "group": "build",
-      "problemMatcher": [],
-      "label": "npm: build-prod",
-      "detail": "webpack --mode production"
-    },
-    {
-      "type": "npm",
-      "script": "clean",
-      "problemMatcher": [],
-      "label": "npm: clean",
-      "detail": "rimraf dist/*"
-    },
-    {
-      "type": "npm",
-      "script": "lint",
-      "problemMatcher": ["$eslint-stylish"],
-      "label": "npm: lint",
-      "detail": "eslint --ext .js ."
-    },
-    {
-      "type": "npm",
-      "script": "test",
-      "group": {
-        "kind": "test",
-        "isDefault": true
-      },
-      "problemMatcher": [],
-      "label": "npm: test",
-      "detail": "mocha"
     }
   ]
 }
