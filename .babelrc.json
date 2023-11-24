@@ -9,7 +9,7 @@
       {
         "bugfixes": true,
         "useBuiltIns": "usage",
-        "corejs": "3.33.2"
+        "corejs": "3.33.3"
       }
     ]
   ]
