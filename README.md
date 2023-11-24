@@ -19,7 +19,7 @@ npm run dev
 npm run start
 ```
 
-## NPM
+## Scripts
 
 | Action  | Command           | Description                                      |
 | ------- | ----------------- | ------------------------------------------------ |
@@ -36,23 +36,23 @@ npm run start
 
 | Tool         | Reference                |
 | ------------ | ------------------------ |
-| Node.js      | https://nodejs.org/      |
-| Webpack      | https://webpack.js.org/  |
-| Mocha        | https://mochajs.org/     |
-| Chai         | https://www.chaijs.com/  |
-| Babel        | https://babeljs.io/      |
-| ESLint       | https://eslint.org/      |
+| Node.js      | https://nodejs.org       |
+| Webpack      | https://webpack.js.org   |
+| Mocha        | https://mochajs.org      |
+| Chai         | https://www.chaijs.com   |
+| Babel        | https://babeljs.io       |
+| ESLint       | https://eslint.org       |
 | Prettier     | https://prettier.io      |
 | EditorConfig | https://editorconfig.org |
 
 ## References
 
-| Website       | Reference                  |
-| ------------- | -------------------------- |
-| Can I Use     | https://caniuse.com        |
-| Browserslist  | https://browsersl.ist      |
-| convertacolor | https://convertacolor.com/ |
-| Polyfill.io   | https://polyfill.io        |
+| Website       | Reference                 |
+| ------------- | ------------------------- |
+| Can I Use     | https://caniuse.com       |
+| Browserslist  | https://browsersl.ist     |
+| convertacolor | https://convertacolor.com |
+| Polyfill.io   | https://polyfill.io       |
 
 ## License
 
