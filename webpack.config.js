@@ -1,5 +1,3 @@
-// webpack.config.js
-
 // import CopyPlugin from 'copy-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 
