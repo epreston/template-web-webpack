@@ -20,10 +20,6 @@
     "iOS >= 17.1",
     "not dead"
   ],
-  "eslintConfig": {
-    "root": true,
-    "extends": "@epreston/eslint-config"
-  },
   "prettier": "@epreston/prettier-config",
   "scripts": {
     "clean": "rimraf dist/*",
@@ -31,7 +27,7 @@
     "build": "npm run build-prod",
     "build-dev": "webpack --mode development",
     "build-prod": "webpack --mode production",
-    "lint": "eslint --ext .js --report-unused-disable-directives .",
+    "lint": "eslint --report-unused-disable-directives .",
     "start": "webpack serve --open --mode development",
     "preview": "webpack serve --open --mode production",
     "test": "mocha",
@@ -40,7 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",
-    "@epreston/eslint-config": "^1.1.2",
+    "@epreston/eslint-config": "^2.0.0",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.2.0",
     "babel-loader": "^9.1.3",
@@ -48,7 +44,7 @@
     "copy-webpack-plugin": "^12.0.2",
     "core-js": "^3.37.1",
     "css-loader": "^7.1.2",
-    "eslint": "^8.57.0",
+    "eslint": "^9.6.0",
     "html-webpack-plugin": "^5.6.0",
     "mocha": "^10.6.0",
     "style-loader": "^4.0.0",
