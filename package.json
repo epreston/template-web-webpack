@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.26.8",
-    "@babel/preset-env": "^7.26.7",
+    "@babel/preset-env": "^7.26.8",
     "@epreston/eslint-config": "^2.1.1",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
