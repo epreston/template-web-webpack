@@ -47,12 +47,13 @@ npm run start
 
 ## References
 
-| Website       | Reference                 |
-| ------------- | ------------------------- |
-| Can I Use     | https://caniuse.com       |
-| Browserslist  | https://browsersl.ist     |
-| convertacolor | https://convertacolor.com |
-| Polyfill.io   | https://polyfill.io       |
+| Website             | Reference                 |
+| ------------------- | ------------------------- |
+| Can I Use           | https://caniuse.com       |
+| Browserslist        | https://browsersl.ist     |
+| Web Platform Status | https://webstatus.dev     |
+| convertacolor       | https://convertacolor.com |
+| Polyfill.io         | https://polyfill.io       |
 
 ## License
 
