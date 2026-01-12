@@ -1,7 +1,6 @@
 {
   "targets": {
-    "browsers": "Chrome >= 120, ChromeAndroid >= 120, Edge >= 120, Firefox >= 121, FirefoxAndroid >= 122, Safari >= 17.1, iOS >= 17.1, not dead",
-    "esmodules": true
+    "browsers": "baseline 2025"
   },
   "presets": [
     [
