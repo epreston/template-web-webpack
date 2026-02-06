@@ -31,7 +31,7 @@
     "watch": "webpack --watch --mode development"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.6",
+    "@babel/core": "^7.29.0",
     "@babel/preset-env": "^7.28.6",
     "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.0",
