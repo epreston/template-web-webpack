@@ -36,7 +36,7 @@
     "@epreston/eslint-config": "^2.4.2",
     "@epreston/prettier-config": "^2.1.1",
     "@epreston/tsconfig": "^1.2.2",
-    "babel-loader": "^10.1.0",
+    "babel-loader": "^10.1.1",
     "chai": "^6.2.2",
     "copy-webpack-plugin": "^13.0.1",
     "core-js": "^3.48.0",
