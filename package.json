@@ -49,5 +49,8 @@
     "webpack": "^5.108.4",
     "webpack-cli": "^7.2.2",
     "webpack-dev-server": "^5.2.6"
+  },
+  "allowScripts": {
+    "core-js": true
   }
 }
