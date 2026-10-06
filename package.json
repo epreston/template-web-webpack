@@ -33,9 +33,9 @@
   "devDependencies": {
     "@babel/core": "^8.0.6",
     "@babel/preset-env": "^8.0.6",
-    "@epreston/eslint-config": "^2.4.2",
+    "@epreston/eslint-config": "^3.0.0",
     "@epreston/prettier-config": "^2.1.1",
-    "@epreston/tsconfig": "^1.2.2",
+    "@epreston/tsconfig": "^1.2.3",
     "babel-loader": "^10.1.1",
     "chai": "^6.3.0",
     "copy-webpack-plugin": "^14.0.0",
