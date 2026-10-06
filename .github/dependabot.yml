@@ -16,6 +16,22 @@ updates:
       interval: monthly
 
     groups:
+      # matching packages that must update together
+      webpack-ecosystem:
+        patterns:
+          - 'webpack'
+          - 'webpack-cli'
+          - 'webpack-dev-server'
+          - 'html-webpack-plugin'
+          - 'copy-webpack-plugin'
+          - 'style-loader'
+          - 'css-loader'
+          - 'babel-loader'
+
+      babel-ecosystem:
+        patterns:
+          - '@babel/*'
+
       npm-dev:
         dependency-type: development
         update-types:
